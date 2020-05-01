@@ -1,0 +1,1 @@
+for f in ~/.bash/*; do . $f; done

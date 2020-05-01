@@ -1,0 +1,18 @@
+*dpi: 96
+*antialias: true
+*rgba: rgb
+*hinting: true
+*hintstyle: hintslight
+*font: xft:monospace:size=9
+
+*background: #000
+*foreground: #FFF
+
+*perl-ext-common: default,clipboard-osc,confirm-paste,digital-clock,eval,font-size,matcher,option-popup,overlay-osc,readline,remote-clipboard,searchable-scrollback,selection,selection-popup,selection-to-clipboard,tabbed
+/* disabled
+background,bell-command,block-graphics-to-ascii,example-refresh-hooks,keysym-list,kuake,selection-autotransform,selection-pastebin,*popup,xim-onthespot
+*/
+
+*clipboard.autocopy: true
+*keysym.M-c: perl:clipboard:copy
+*keysym.M-v: perl:clipboard:paste
